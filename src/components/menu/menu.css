@@ -1,0 +1,125 @@
+.menu-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-menu {
+    position: fixed;
+    height: 65px;
+    top: 0;
+    width: 100%;
+    background-color: #3A573C;
+    /* background-image: url('../../../public/assets/world-map.png'); */
+    z-index: -5; 
+}
+
+.fixed-menu-scroll {
+    position: fixed;
+    height: 65px;
+    top: 0;
+    width: 100%;
+    background-color: #3A573C;
+    /* background-image: url('../../../public/assets/world-map.png'); */
+    z-index: 0;  
+}
+
+.menu-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center; 
+    justify-content: space-around;
+
+    position: fixed;
+    height: 65px;
+    top: 0;
+    padding: 15px;
+    
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.menu-item {
+    margin: 5px;
+    width: auto;
+    cursor: pointer;
+
+    color: var(--ffffff, #FFF);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 108.333% */
+    text-decoration: none;
+
+    transition: color 0.3s linear;
+    transition: font-size 0.3s ease;
+}
+
+.active {
+    margin: 5px;
+    width: auto;
+    cursor: pointer;
+
+    color: var(--ffffff, #FFF);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 108.333% */
+    text-decoration: none;
+
+    transition: color 0.3s;
+    transition: font-size 0.3s ease;
+    color: #EDAB2B;
+}
+
+.menu-item:hover, .active:hover {
+    font-size: 23px;
+    color:#FFF;
+}
+
+.logo {
+    width: 154px;
+    height: 28.222px;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin: 15px 0px;
+}
+
+.join-button {
+    display: flex;
+    padding: 8px 32px;
+    justify-content: center;
+    align-items: center;
+
+    border: solid #55A95B;
+    border-radius: 8px;
+    background: #55A95B;
+
+    transition: transform .3s ease-in;
+}
+
+.join-button-text {
+    color:  #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+
+.join-button:hover {
+    transform: scale(1.1);
+}

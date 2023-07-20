@@ -1,0 +1,72 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    margin: 100px auto;
+    /* position: relative; */
+
+}
+
+.about-us {
+    width: 634px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title {
+    color: #559A5A;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px; /* 116.667% */
+
+    
+}
+.maqoor {
+    border-bottom: solid 4px #EDAB2B;
+}
+
+.text {
+    color: #81888C;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+}
+
+.background{
+    width: 632.075px;
+    height: 554px;
+    transform: rotate(-0.115deg);
+    flex-shrink: 0;
+    z-index: -10;
+    position: relative;
+    background: url('../../../public/assets/Vector.png') no-repeat;
+}
+
+.img-container {
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+
+    position: absolute;
+    right: 10%;
+    top: 64%;
+
+    background-image: url('../../../public/assets/team.jpg');
+    background-size: 100% auto; 
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 50%; 
+}
+
+.team-pic {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
