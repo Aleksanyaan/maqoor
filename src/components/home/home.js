@@ -28,7 +28,8 @@ function Home() {
     // }
     const backgroundStyles = {
         width: '100%',
-        height: '100vh',
+        minHeight: '100vh',
+        padding: '20px 0',
         backgroundColor: '#3A573C',
         backgroundImage: 'url("/assets/world-map.png")',
         backgroundRepeat: 'repeat',

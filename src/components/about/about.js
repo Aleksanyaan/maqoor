@@ -15,9 +15,9 @@ function About() {
                     With its teams, Maqoor continues to encourage collective steps through education and actions, leading to impactful changes in society.
                 </p>
             </div>
-            <div className="background"></div>
-            <div className="img-container">
-                {/* <img src="/assets/team.jpg" alt="team" className='team-pic'/> */}
+            <div className='flex-center relative'>
+                <div className="background"></div>
+                <div className="img-container"></div>
             </div>
         </div>
     )
